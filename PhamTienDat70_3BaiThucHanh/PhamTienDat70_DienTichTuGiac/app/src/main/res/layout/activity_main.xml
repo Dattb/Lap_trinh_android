@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtXA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="Toa do XA"
+            android:textSize="18sp"></EditText>
+
+        <EditText
+            android:id="@+id/edtXB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="Toa do XB"
+            android:textSize="18sp"></EditText>
+
+        <EditText
+            android:id="@+id/edtXC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="Toa do XC"
+            android:textSize="18sp"></EditText>
+
+        <EditText
+            android:id="@+id/edtXD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="Toa do XD"
+            android:textSize="18sp"></EditText>
+
+        <TextView
+            android:id="@+id/txtKT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Check"
+            android:textSize="25sp"></TextView>
+
+        <Button
+            android:id="@+id/btnTinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:onClick="tinhtoan"
+            android:text="Tinh">
+
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtYA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="Toa do YA"
+            android:textSize="18sp"></EditText>
+
+        <EditText
+            android:id="@+id/edtYB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="Toa do YB"
+            android:textSize="18sp"></EditText>
+
+        <EditText
+            android:id="@+id/edtYC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="Toa do YC"
+            android:textSize="18sp"></EditText>
+
+        <EditText
+            android:id="@+id/edtYD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="Toa do YD"
+            android:textSize="18sp"></EditText>
+
+        <TextView
+            android:id="@+id/txtS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text=" dien tich"
+            android:textSize="25sp"></TextView>
+
+        <Button
+            android:id="@+id/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Xoa">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

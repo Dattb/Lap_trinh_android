@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtHT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:hint="Họ và Tên"
+        android:textSize="18sp"></EditText>
+    <EditText
+        android:id="@+id/edtNhapCV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Chức vụ"
+        android:textSize="18sp">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtXL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Xếp Loại"
+        android:textSize="25sp">
+    </TextView>
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập Điểm"
+        android:layout_gravity="center"
+        android:id="@+id/btnND"
+        >
+
+    </Button>
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ Tên"
+        android:textSize="15sp"
+        android:id="@+id/edtTen"
+        >
+    </EditText>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Năm Sinh"
+        android:textSize="15sp"
+        android:id="@+id/edtNS"
+        >
+    </EditText>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lớp Học Phần"
+        android:textSize="15sp"
+        android:id="@+id/edtLop"
+        >
+    </EditText>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã Sinh Viên"
+        android:textSize="15sp"
+        android:id="@+id/edtMSV"
+        >
+    </EditText>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm Số"
+        android:textSize="15sp"
+        android:id="@+id/edtDiem"
+        >
+    </EditText>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CHức Vụ"
+        android:textSize="15sp"
+        android:id="@+id/edtCV"
+        >
+    </EditText>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Xếp Loại"
+        android:textSize="15sp"
+        android:id="@+id/edtXL"
+        >
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="STT"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/txtSTT">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnTien"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Tiến">
+
+        </Button>
+        <Button
+            android:id="@+id/btnLuu"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Lưu">
+
+        </Button>
+        <Button
+            android:id="@+id/btnXoa"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Xóa">
+
+        </Button>
+        <Button
+            android:id="@+id/btnLui"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Lùi"
+
+            >
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnThem"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:hint="thêm"
+
+            >
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
